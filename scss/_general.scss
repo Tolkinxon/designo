@@ -14,6 +14,22 @@
     flex-direction: column;
   }
 
+  
+  main {
+    flex-grow: 1;
+  }
+
+  ul, ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+  }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -26,6 +42,15 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+  }
+
+
+  .container {
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   
