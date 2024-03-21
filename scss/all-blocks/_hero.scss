@@ -1,0 +1,42 @@
+.hero {
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        background-color: $peach;
+        border-radius: 10px;
+        padding: 145px 0px;
+
+        > div {
+            max-width: 635px;
+            width: 100%;
+            padding-left: 95px;
+
+            .hero__heading {
+                width: 100%;
+                font-family: 'Jost', sans-serif;
+                font-size: 48px;
+                font-weight: 500;
+                line-height: 48px;
+                text-align: left;
+                margin-bottom: 11px;
+                color: $white;
+            }
+
+            .hero__text {
+                max-width: 445px;
+                width: 100%;
+                font-family: 'Jost', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                text-align: left;
+                margin-bottom: 40px;
+                color: $white;                
+            }
+
+        }
+    }
+
+ 
+}

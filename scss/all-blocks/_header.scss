@@ -1,0 +1,28 @@
+.header {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 64px 0px;
+        margin-bottom: 3px;
+    }
+    
+    &__logo {
+        width: 196px;
+        height: 24px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item + &__item {
+        font-family: 'Jost', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #333136; 
+        margin-left: 42px;       
+    }
+}

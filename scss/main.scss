@@ -2,8 +2,5 @@
 @import "general";
 @import "colors";
 @import "fonts";
-@import "./all-blocks/index";
+@import "./all-blocks";
 
-body {
-    margin: 2px solid blue;
-}
