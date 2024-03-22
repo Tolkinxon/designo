@@ -391,7 +391,8 @@ h1, h2, h3, h4, h5, h6, p {
 .header__container {
   display: flex;
   justify-content: space-between;
-  padding: 64px 0px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   margin-bottom: 3px;
 }
 .header__logo {
@@ -418,7 +419,13 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: left;
   background-color: #E7816B;
   border-radius: 10px;
-  padding: 145px 0px;
+  padding-top: 145px;
+  padding-bottom: 145px;
+  margin-bottom: 100px;
+  background-image: url("./../images/Oval.svg"), url("./../images/background_phone.svg");
+  background-repeat: no-repeat;
+  background-size: contain, 280px;
+  background-position: right, 731px 139px;
 }
 .hero__container > div {
   max-width: 635px;
@@ -432,7 +439,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
   line-height: 48px;
   text-align: left;
-  margin-bottom: 11px;
+  margin-bottom: 20px;
   color: #fff;
 }
 .hero__container > div .hero__text {
@@ -447,8 +454,65 @@ h1, h2, h3, h4, h5, h6, p {
   color: #fff;
 }
 
+.designs__container {
+  display: flex;
+}
+.designs__right, .designs__left {
+  flex-grow: 1;
+  height: 640px;
+  margin-right: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+.designs__left {
+  margin-right: 0px;
+  margin-left: 15px;
+}
+.designs__top, .designs__bottom {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.designs__top h2, .designs__bottom h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-bottom: 24px;
+  color: #fff;
+}
+.designs__top p, .designs__bottom p {
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21.68px;
+  letter-spacing: 5px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.designs__top p img, .designs__bottom p img {
+  width: 4px;
+  height: 8px;
+  margin-right: 21px;
+}
+.designs__bottom {
+  margin-bottom: 0px;
+}
+
 .link {
-  width: 152px;
+  display: inline-block;
+  width: 155px;
   height: 56px;
   padding: 16px 25px;
   text-decoration: none;

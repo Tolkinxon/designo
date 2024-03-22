@@ -5,7 +5,16 @@
         justify-content: left;
         background-color: $peach;
         border-radius: 10px;
-        padding: 145px 0px;
+        padding-top: 145px;
+        padding-bottom: 145px;
+        margin-bottom: 100px;
+
+
+        background-image: url('./../images/Oval.svg'), url('./../images/background_phone.svg');
+        background-repeat: no-repeat;
+        background-size: contain, 280px;
+        background-position: right, 731px 139px ;
+
 
         > div {
             max-width: 635px;
@@ -19,7 +28,7 @@
                 font-weight: 500;
                 line-height: 48px;
                 text-align: left;
-                margin-bottom: 11px;
+                margin-bottom: 20px;
                 color: $white;
             }
 
