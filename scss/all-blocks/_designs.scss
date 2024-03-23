@@ -1,9 +1,10 @@
 .designs {
     &__container {
         display: flex;
+        margin-bottom: 160px;
     }
 
-    &__right {
+    &__left {
         background-image: url('./../images/designs1.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -50,12 +51,12 @@
         }     
     }
     
-    &__left {
+    &__right {
         margin-right: 0px;
         margin-left: 15px;
     }
     
-    &__left-top, &__left-bottom{
+    &__right-top, &__right-bottom{
         width: 100%;
         height: 308px;  
         display: flex;
@@ -66,13 +67,13 @@
         border-radius: 10px;
     }
 
-    &__left-top {
+    &__right-top {
         background-image: url('./../images/designs2.png');
         background-repeat: no-repeat;
         background-size: cover;
     }  
     
-    &__left-bottom {
+    &__right-bottom {
         margin-bottom: 0px;
         background-image: url('./../images/designs3.png');
         background-repeat: no-repeat;
