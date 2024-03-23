@@ -517,6 +517,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: 15px;
 }
 .designs__right-top, .designs__right-bottom {
+  position: relative;
   width: 100%;
   height: 308px;
   display: flex;
@@ -530,11 +531,15 @@ h1, h2, h3, h4, h5, h6, p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.designs__right-top .image-wrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .designs__right-bottom {
   margin-bottom: 0px;
   background-image: url("./../images/designs3.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .link {
