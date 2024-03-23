@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6, p {
 .header__list {
   display: flex;
 }
-.header__item + .header__item {
+.header__item {
   font-family: "Jost", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -410,6 +410,8 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 2px;
   text-align: left;
   color: #333136;
+}
+.header__item + .header__item {
   margin-left: 42px;
 }
 
@@ -539,7 +541,75 @@ h1, h2, h3, h4, h5, h6, p {
   background-image: url("./../images/designs3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.feature__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.feature__item {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.feature__item-image {
+  width: 202px;
+  height: 202px;
+  margin-bottom: 48px;
+}
+.feature__item-heading {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 5px;
+  margin-bottom: 32px;
+  color: #333136;
+}
+.feature__item-text {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.about-project__container {
+  padding-top: 72px;
+  padding-bottom: 46px;
+  padding-left: 95px;
+  padding-right: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #E7816B;
+  border-radius: 10px;
+}
+.about-project .text-wrapper {
+  width: 460px;
+  text-align: left;
+}
+.about-project__heading {
+  max-width: 268px;
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.about-project__text {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 22px;
 }
 
 .link {
