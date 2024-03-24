@@ -623,11 +623,18 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 72px;
   background-color: #1D1C1E;
 }
-.footer__container {
+.footer__top .footer__header-container {
   padding-top: 72px;
-  padding-bottom: 72px;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid #fff;
 }
-
+.footer__top .footer__header-container img {
+  width: 202px;
+  height: 27px;
+}
+.footer__top .footer__header-container .header__item {
+  color: #fff;
+}
 .link {
   display: inline-block;
   width: 155px;
