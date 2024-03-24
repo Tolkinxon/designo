@@ -588,6 +588,10 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: space-between;
   background-color: #E7816B;
   border-radius: 10px;
+  background-image: url("./../images/about-project1.png"), url("./../images/about-project2.png");
+  background-repeat: no-repeat;
+  background-image: contain;
+  background-position: 100% calc(50% - 125px), 100% calc(50% + 170px);
 }
 .about-project .text-wrapper {
   width: 460px;
