@@ -627,6 +627,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 72px;
   padding-bottom: 40px;
   border-bottom: 0.5px solid #fff;
+  margin-bottom: 31px;
 }
 .footer__top .footer__header-container img {
   width: 202px;
@@ -635,6 +636,37 @@ h1, h2, h3, h4, h5, h6, p {
 .footer__top .footer__header-container .header__item {
   color: #fff;
 }
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__bottom .footer__list {
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__bottom .footer__list .footer__item {
+  width: 350px;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  color: #fff;
+}
+.footer__bottom .footer__list .footer__item p {
+  font-weight: 400;
+}
+.footer__bottom .footer__icons-list {
+  display: flex;
+  align-items: end;
+}
+.footer__bottom .footer__icons-list .footer__icons-item img {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+}
+
 .link {
   display: inline-block;
   width: 155px;
