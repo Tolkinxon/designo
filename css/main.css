@@ -415,6 +415,17 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: 42px;
 }
 
+.main {
+  border: 2px solid red;
+  max-width: 1440px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("./../../images/background-of-site1.svg"), url("./../../images/background-of-site2.svg");
+  background-repeat: no-repeat;
+  background-position: left 250px, right 1730px;
+}
+
 .hero__container {
   display: flex;
   align-items: center;
