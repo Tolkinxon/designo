@@ -1,8 +1,12 @@
 .link {
     display: inline-block;
-    width: 155px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    max-width: 155px;
+    width: 100%;
     height: 56px;
-    padding: 16px 25px;
+    padding: 16px 19px;
     text-decoration: none;
     font-family: 'Jost', sans-serif;
     font-size: 15px;
@@ -15,6 +19,17 @@
     &__on-dark {
         background-color: $white;
         color: $dark_gray;
+    }
+
+    &__on-light {
+        background-color: $peach;
+        color: $white;
+    }
+
+
+    &:hover {
+        background-color: $light_peach;
+        color: $white;
     }
    
 
