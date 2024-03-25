@@ -416,14 +416,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .main {
-  border: 2px solid red;
   max-width: 1440px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   background-image: url("./../../images/background-of-site1.svg"), url("./../../images/background-of-site2.svg");
   background-repeat: no-repeat;
-  background-position: left 250px, right 1730px;
+  background-position: left 250px, right 1650px;
 }
 
 .hero__container {
@@ -557,7 +556,7 @@ h1, h2, h3, h4, h5, h6, p {
 .feature__list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 160px;
+  margin-bottom: 88px;
 }
 .feature__item {
   max-width: 350px;
