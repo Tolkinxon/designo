@@ -1,9 +1,5 @@
 .main {
-    max-width: 1440px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
     background-image: url('./../../images/background-of-site1.svg'), url('./../../images/background-of-site2.svg');
     background-repeat: no-repeat;
-    background-position: left 250px, right 1650px;
+    background-position: calc(50% - 220px) 250px, calc(50% + 220px) 1650px;
 }

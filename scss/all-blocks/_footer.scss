@@ -9,14 +9,19 @@
             padding-bottom: 40px;
             border-bottom: 0.5px solid $white;
             margin-bottom: 31px;
-            
-            img {
-                width: 202px;
-                height: 27px;
-            }
+            justify-content: right;
+
+            background-image: url('./../../images/footer-logo.svg');
+            background-position: left calc(50% + 15px);
             
             .header__item {
                 color: $white;
+            }
+
+            .header__item:hover {
+                span {
+                    box-shadow: 0px 0px 0px 0.3px white; 
+                }
             }
         }
     }
@@ -50,10 +55,12 @@
             align-items: end;
 
             .footer__icons-item {
-                img  {
-                    width: 24px;
-                    height: 24px;
-                    margin-left: 16px;
+                margin-left: 16px;
+            }
+
+            .footer__icons-item:hover {
+                svg path {
+                    fill: #ffad9b;
                 }
             }
         }
