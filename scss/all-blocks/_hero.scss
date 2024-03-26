@@ -56,8 +56,7 @@
             justify-content: start;
             margin-bottom: 120px;
            
-            background-size: 640px 640px, 280px;
-            background-position: calc(50%), 731px 139px ;
+            background-position: calc(50% + 140px), calc(50%) calc(50% + 330px) ;
 
             > div {
                 max-width: 573px;

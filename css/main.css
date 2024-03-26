@@ -488,8 +488,7 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     justify-content: start;
     margin-bottom: 120px;
-    background-size: 640px 640px, 280px;
-    background-position: 50%, 731px 139px;
+    background-position: calc(50% + 140px), 50% calc(50% + 330px);
   }
   .hero__container > div {
     max-width: 573px;
