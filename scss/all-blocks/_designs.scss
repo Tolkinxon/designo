@@ -104,5 +104,65 @@
         background-image: url('./../images/designs3.png');
         background-repeat: no-repeat;
         background-size: cover;
-    }   
+    }  
+    
+    @media only screen and (max-width: 768px) {
+        &__container {
+            flex-direction: column;
+            margin-bottom: 120px;
+        }
+    
+        &__left {
+            max-width: 690px;
+            width: 100%;
+            background-image: url('./../images/designs-tablet1.png');
+            background-size: contain;
+            margin-bottom: 25px;
+            height: 200px;
+        }
+        
+        &__right, &__left {
+            max-width: 690px;
+            width: 100%;
+            height: 200px;
+            margin-right: 15px;
+    
+            .image-wrapper {
+                background-color:  rgba(0, 0, 0, 0);
+            }
+    
+            .image-wrapper:hover {
+                z-index: 6;
+                background-color:  rgba(231, 130, 107, 0.681);
+            }
+        }
+        
+        &__right {
+            height: auto;
+            margin-left: 0px;
+        }
+        
+        &__right-top, &__right-bottom{
+            height: 200px;  
+            display: flex;
+            margin-bottom: 25px;
+        }
+    
+        &__right-top {
+            max-width: 768px;
+            width: 100%;
+            background-image: url('./../images/designs-tablet2.png');
+            background-size: contain;
+           
+    
+            .image-wrapper {
+                background-color:  rgba(0, 0, 0, 0);
+            }           
+        }  
+        
+        &__right-bottom {
+            background-image: url('./../images/designs-tablet3.png');
+            background-size: contain;
+        }  
+    }
 }

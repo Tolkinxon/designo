@@ -3,3 +3,9 @@
     background-repeat: no-repeat;
     background-position: calc(50% - 220px) 250px, calc(50% + 220px) 1650px;
 }
+
+@media only screen and (max-width: 768px) {
+    .main {
+        background-image: none;
+    }
+}

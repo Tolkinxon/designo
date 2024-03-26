@@ -373,6 +373,12 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
   }
 }
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 347px;
+    width: 100%;
+  }
+}
 @font-face {
   font-display: swap;
   font-family: "Jost";
@@ -440,6 +446,11 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: calc(50% - 220px) 250px, calc(50% + 220px) 1650px;
 }
 
+@media only screen and (max-width: 768px) {
+  .main {
+    background-image: none;
+  }
+}
 .hero__container {
   display: flex;
   align-items: center;
@@ -506,6 +517,30 @@ h1, h2, h3, h4, h5, h6, p {
   .hero__container > div .hero__text {
     text-align: center;
     margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .hero .container {
+    max-width: 375px;
+    width: 100%;
+    padding: 0px;
+  }
+  .hero__container {
+    background-position: calc(50% + 133px), 50% calc(50% + 330px);
+    border-radius: 0px;
+  }
+  .hero__container > div {
+    max-width: 327px;
+  }
+  .hero__container > div .hero__heading {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .hero__container > div .hero__text {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 24px;
   }
 }
 
@@ -598,6 +633,55 @@ h1, h2, h3, h4, h5, h6, p {
   background-image: url("./../images/designs3.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .designs__container {
+    flex-direction: column;
+    margin-bottom: 120px;
+  }
+  .designs__left {
+    max-width: 690px;
+    width: 100%;
+    background-image: url("./../images/designs-tablet1.png");
+    background-size: contain;
+    margin-bottom: 25px;
+    height: 200px;
+  }
+  .designs__right, .designs__left {
+    max-width: 690px;
+    width: 100%;
+    height: 200px;
+    margin-right: 15px;
+  }
+  .designs__right .image-wrapper, .designs__left .image-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .designs__right .image-wrapper:hover, .designs__left .image-wrapper:hover {
+    z-index: 6;
+    background-color: rgba(231, 130, 107, 0.681);
+  }
+  .designs__right {
+    height: auto;
+    margin-left: 0px;
+  }
+  .designs__right-top, .designs__right-bottom {
+    height: 200px;
+    display: flex;
+    margin-bottom: 25px;
+  }
+  .designs__right-top {
+    max-width: 768px;
+    width: 100%;
+    background-image: url("./../images/designs-tablet2.png");
+    background-size: contain;
+  }
+  .designs__right-top .image-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .designs__right-bottom {
+    background-image: url("./../images/designs-tablet3.png");
+    background-size: contain;
+  }
 }
 
 .feature__list {

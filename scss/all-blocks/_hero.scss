@@ -9,19 +9,19 @@
         min-height: 640px;
         padding-top: 60px;
         padding-bottom: 60px;
-
-
+        
+        
         background-image: url('./../images/Oval.svg'), url('./../images/background_phone.svg');
         background-repeat: no-repeat;
         background-size: 640px 640px, 280px;
         background-position: calc(50% + 230px), calc(100% - 96px) 139px ;
-
-
+        
+        
         > div {
             max-width: 635px;
             width: 100%;
             padding-left: 95px;
-
+            
             .hero__heading {
                 width: 100%;
                 font-family: 'Jost', sans-serif;
@@ -32,7 +32,7 @@
                 margin-bottom: 20px;
                 color: $white;
             }
-
+            
             .hero__text {
                 max-width: 445px;
                 width: 100%;
@@ -44,10 +44,10 @@
                 margin-bottom: 40px;
                 color: $white;                
             }
-
+            
         }
     }
-
+    
     @media only screen and (max-width: 768px) {
         &__container {
             min-height: 843px;
@@ -55,9 +55,9 @@
             align-items: center;
             justify-content: start;
             margin-bottom: 120px;
-           
+            
             background-position: calc(50% + 140px), calc(50%) calc(50% + 330px) ;
-
+            
             > div {
                 max-width: 573px;
                 width: 100%;
@@ -66,19 +66,46 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-
+                
                 .hero__heading {
                     text-align: center;
                     margin-bottom: 20px;
                 }
-
+                
                 .hero__text {
                     text-align: center;
                     margin-bottom: 20px;
                 }
             }
         }
+    } 
+    
+    @media only screen and (max-width: 375px) {
+        .container {
+            max-width: 375px;
+            width: 100%;
+            padding: 0px;
+        }
+        
+        &__container {
+            background-position: calc(50% + 133px), calc(50%) calc(50% + 330px);
+            border-radius: 0px;
+            
+            > div {
+                max-width: 327px;
+                
+                .hero__heading {
+                    font-size: 32px;
+                    line-height: 36px;
+                    margin-bottom: 20px;
+                }
+                
+                .hero__text {
+                    font-size: 15px;
+                    line-height: 25px;
+                    margin-bottom: 24px;
+                }
+            }
+        }
     }
-
- 
 }

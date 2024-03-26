@@ -60,4 +60,9 @@
     }
   }
 
-  
+  @media only screen and (max-width: 375px) {
+    .container {
+       max-width: 347px;
+       width: 100%;
+    }
+  }
