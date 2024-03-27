@@ -720,9 +720,12 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 67px;
   }
   .feature__item {
+    max-width: 768px;
     width: 100%;
     flex-direction: row;
+    align-items: center;
     text-align: left;
+    margin-bottom: 32px;
   }
   .feature__item-image {
     margin-bottom: 0px;
