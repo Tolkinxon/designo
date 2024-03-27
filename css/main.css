@@ -731,6 +731,13 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 0px;
     margin-right: 48px;
   }
+  .feature__item-heading {
+    margin-bottom: 16px;
+  }
+  .feature__text-wrapper {
+    max-width: 440px;
+    width: 100%;
+  }
 }
 
 .about-project__container {
