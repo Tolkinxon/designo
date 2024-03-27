@@ -779,6 +779,35 @@ h1, h2, h3, h4, h5, h6, p {
   color: #fff;
   margin-bottom: 22px;
 }
+@media only screen and (max-width: 768px) {
+  .about-project__container {
+    padding-top: 57px;
+    padding-bottom: 57px;
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: calc(100% + 200px) -135px, 100% 157px;
+  }
+  .about-project .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .about-project__heading {
+    max-width: 335px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about-project__text {
+    max-width: 450px;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
 
 .footer {
   padding-top: 72px;

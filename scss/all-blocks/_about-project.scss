@@ -41,4 +41,37 @@
         color: $white;
         margin-bottom: 22px;
     }
+
+    @media only screen and (max-width: 768px){
+        &__container {
+            padding-top: 57px;
+            padding-bottom: 57px;
+            padding-left: 60px;
+            padding-right: 60px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-position: calc(100% + 200px) -135px, calc(100%) 157px;
+        }
+        
+        .text-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;        
+        }  
+        
+        &__heading {
+            max-width: 335px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    
+        &__text {
+            max-width: 450px;
+            width: 100%;
+            margin-bottom: 32px;
+        }
+    }
 }
