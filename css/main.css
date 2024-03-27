@@ -711,6 +711,20 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 400;
   line-height: 26px;
 }
+@media only screen and (max-width: 768px) {
+  .feature__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 67px;
+  }
+  .feature__item {
+    width: 100%;
+    flex-direction: row;
+    text-align: left;
+  }
+}
 
 .about-project__container {
   position: relative;
