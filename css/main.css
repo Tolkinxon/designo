@@ -640,8 +640,6 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 120px;
   }
   .designs__left {
-    max-width: 690px;
-    width: 100%;
     background-image: url("./../images/designs-tablet1.png");
     background-size: contain;
     margin-bottom: 25px;
@@ -650,8 +648,6 @@ h1, h2, h3, h4, h5, h6, p {
   .designs__right, .designs__left {
     max-width: 690px;
     width: 100%;
-    height: 200px;
-    margin-right: 15px;
   }
   .designs__right .image-wrapper, .designs__left .image-wrapper {
     background-color: rgba(0, 0, 0, 0);
@@ -666,12 +662,9 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .designs__right-top, .designs__right-bottom {
     height: 200px;
-    display: flex;
     margin-bottom: 25px;
   }
   .designs__right-top {
-    max-width: 768px;
-    width: 100%;
     background-image: url("./../images/designs-tablet2.png");
     background-size: contain;
   }
