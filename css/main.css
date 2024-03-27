@@ -724,6 +724,10 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: row;
     text-align: left;
   }
+  .feature__item-image {
+    margin-bottom: 0px;
+    margin-right: 48px;
+  }
 }
 
 .about-project__container {
