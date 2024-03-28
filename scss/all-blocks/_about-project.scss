@@ -44,6 +44,7 @@
 
     @media only screen and (max-width: 768px){
         &__container {
+            top: 86px;
             padding-top: 57px;
             padding-bottom: 57px;
             padding-left: 60px;
@@ -51,7 +52,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-position: calc(100% + 200px) -135px, calc(100%) 157px;
+            background-size: 584px 292px, 876px 292px;
+            background-position: calc(100% + 146px) -135px, calc(100% + 146px) 157px;
         }
         
         .text-wrapper {
