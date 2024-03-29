@@ -3,7 +3,7 @@
         display: flex;
         margin-bottom: 160px;
     }
-
+    
     &__left {
         background-image: url('./../images/designs1.png');
         background-repeat: no-repeat;
@@ -20,7 +20,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-
+        
         .image-wrapper {
             width: 100%;
             height: 100%;
@@ -30,12 +30,12 @@
             background-color:  rgba(0, 0, 0, 0.6);
             border-radius: 15px;
         }
-
+        
         .image-wrapper:hover {
             z-index: 6;
             background-color:  rgba(231, 130, 107, 0.681);
         }
-                
+        
         h2 {
             font-family: 'Jost', sans-serif;
             font-size: 40px;
@@ -45,9 +45,9 @@
             text-align: left;
             margin-bottom: 24px;
             color: $white; 
-            z-index: 5;           
+            z-index: 5; 
         }
-
+        
         p {
             font-family: 'Jost', sans-serif;
             font-size: 15px;
@@ -58,15 +58,14 @@
             display: flex;
             align-items: center;
             color: $white;
-            z-index: 5;           
-
-
+            z-index: 5;  
+             
             img {
                 width: 4px;
                 height: 8px;
                 margin-left: 21px;
                 z-index: 5;           
-
+                
             }
         }     
     }
@@ -86,17 +85,17 @@
         align-items: center;
         margin-bottom: 24px;
     }
-
+    
     &__right-top {
         background-image: url('./../images/designs2.png');
         background-repeat: no-repeat;
         background-size: cover;
-
+        
         .image-wrapper {
             background-color:  rgba(0, 0, 0, 0.1);
         }
-
-       
+        
+        
     }  
     
     &__right-bottom {
@@ -111,7 +110,7 @@
             flex-direction: column;
             margin-bottom: 120px;
         }
-    
+        
         &__left {
             background-image: url('./../images/designs-tablet1.png');
             background-size: contain;
@@ -122,11 +121,11 @@
         &__right, &__left {
             max-width: 690px;
             width: 100%;
-    
+            
             .image-wrapper {
                 background-color:  rgba(0, 0, 0, 0);
             }
-    
+            
             .image-wrapper:hover {
                 z-index: 6;
                 background-color:  rgba(231, 130, 107, 0.681);
@@ -142,12 +141,12 @@
             height: 200px;  
             margin-bottom: 25px;
         }
-    
+        
         &__right-top {
             background-image: url('./../images/designs-tablet2.png');
             background-size: contain;
-           
-    
+            
+            
             .image-wrapper {
                 background-color:  rgba(0, 0, 0, 0);
             }           
@@ -156,6 +155,57 @@
         &__right-bottom {
             background-image: url('./../images/designs-tablet3.png');
             background-size: contain;
+        }  
+    }
+    
+    @media only screen and (max-width: 375px) {
+        &__left {
+            background-image: url('./../images/designs-mobile1.png');
+            margin-bottom: 24px;
+            height: 250px;
+        }
+        
+        &__right, &__left {
+            max-width: 375px;
+            width: 100%;
+
+            .image-wrapper {
+                background-color:  rgba(0, 0, 0, 0.6);
+            }
+            
+            .image-wrapper:hover {
+                z-index: 6;
+                background-color:  rgba(231, 130, 107, 0.681);
+            }
+
+                   
+            h2 {
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: 1.399999976158142px;
+                margin-bottom: 12px;
+            }
+            
+            
+            p {
+                img {
+                    margin-left: 16px;                
+                }
+            }
+        }
+        
+        &__right-top, &__right-bottom{
+            height: 250px;  
+            margin-bottom: 24px;
+        }
+        
+        &__right-top {
+            background-image: url('./../images/designs-mobile2.png');
+        }  
+        
+        &__right-bottom {
+            background-image: url('./../images/designs-mobile3.png');
+            margin-bottom: 0px;
         }  
     }
 }

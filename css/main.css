@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6, p {
   top: 100%;
   left: 0;
   width: 100vw;
-  height: calc(100vh - 96px);
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.57);
 }
 .header__list {
@@ -509,6 +509,10 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .header .header__button {
     display: block;
+  }
+  .open-menu {
+    height: 100%;
+    overflow-y: hidden;
   }
   .open-menu .background-shade {
     display: block;
@@ -757,6 +761,44 @@ h1, h2, h3, h4, h5, h6, p {
   .designs__right-bottom {
     background-image: url("./../images/designs-tablet3.png");
     background-size: contain;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .designs__left {
+    background-image: url("./../images/designs-mobile1.png");
+    margin-bottom: 24px;
+    height: 250px;
+  }
+  .designs__right, .designs__left {
+    max-width: 375px;
+    width: 100%;
+  }
+  .designs__right .image-wrapper, .designs__left .image-wrapper {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .designs__right .image-wrapper:hover, .designs__left .image-wrapper:hover {
+    z-index: 6;
+    background-color: rgba(231, 130, 107, 0.681);
+  }
+  .designs__right h2, .designs__left h2 {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 1.3999999762px;
+    margin-bottom: 12px;
+  }
+  .designs__right p img, .designs__left p img {
+    margin-left: 16px;
+  }
+  .designs__right-top, .designs__right-bottom {
+    height: 250px;
+    margin-bottom: 24px;
+  }
+  .designs__right-top {
+    background-image: url("./../images/designs-mobile2.png");
+  }
+  .designs__right-bottom {
+    background-image: url("./../images/designs-mobile3.png");
+    margin-bottom: 0px;
   }
 }
 
