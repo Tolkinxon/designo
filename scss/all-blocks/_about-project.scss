@@ -45,7 +45,7 @@
     
     @media only screen and (max-width: 768px){
         &__container {
-            top: 86px;
+            margin-bottom: -86px;
             padding-top: 57px;
             padding-bottom: 57px;
             padding-left: 60px;
@@ -80,7 +80,7 @@
     
     @media only screen and (max-width: 375px){
         &__container {
-            top: 190px;
+            margin-bottom: -190px;
             padding: 64px 24px;
             background-size: 584px 292px, 876px 292px;
             background-position: calc(50% + 183px) -100px, calc(50% + 33px) 190px;

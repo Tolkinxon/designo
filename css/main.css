@@ -843,7 +843,7 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin-bottom: -19px;
+    margin-bottom: 67px;
   }
   .feature__item {
     max-width: 768px;
@@ -869,12 +869,14 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 @media only screen and (max-width: 375px) {
+  .feature__list {
+    margin-bottom: 120px;
+  }
   .feature__item {
     max-width: 375px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 80px;
   }
   .feature__item:last-child {
     margin-bottom: 0px;
@@ -930,7 +932,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 @media only screen and (max-width: 768px) {
   .about-project__container {
-    top: 86px;
+    margin-bottom: -86px;
     padding-top: 57px;
     padding-bottom: 57px;
     padding-left: 60px;
@@ -961,7 +963,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 @media only screen and (max-width: 375px) {
   .about-project__container {
-    top: 190px;
+    margin-bottom: -190px;
     padding: 64px 24px;
     background-size: 584px 292px, 876px 292px;
     background-position: calc(50% + 183px) -100px, calc(50% + 33px) 190px;
