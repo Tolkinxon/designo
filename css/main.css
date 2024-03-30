@@ -1062,6 +1062,16 @@ h1, h2, h3, h4, h5, h6, p {
 .footer__bottom .footer__icons-list .footer__icons-item:hover svg path {
   fill: #ffad9b;
 }
+@media only screen and (max-width: 1170px) {
+  .footer .footer__header-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .footer .footer__bottom {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .footer {
     padding-top: 86px;

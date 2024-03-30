@@ -64,6 +64,24 @@
             }
         }       
     }
+
+    @media only screen and (max-width: 1170px) {
+        .footer__header-container {
+            margin-left: 20px;
+            margin-right: 20px;
+        } 
+        
+        .footer__bottom {
+            margin-left: 20px;
+            margin-right: 20px;  
+        }
+    }
+
+    @media only screen and (max-width: 965px) {
+  
+    }
+
+    
     
     @media only screen and (max-width: 768px) {
         padding-top: 86px;
