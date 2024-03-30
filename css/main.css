@@ -1036,12 +1036,14 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: space-between;
 }
 .footer__bottom .footer__list {
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .footer__bottom .footer__list .footer__item {
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   font-family: "Jost", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -1077,9 +1079,16 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 86px;
     padding-bottom: 80px;
   }
+  .footer .footer__header-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer .footer__bottom {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .footer__top .footer__header-container {
     padding-top: 80px;
-    background-position: left calc(50% + 20px);
   }
   .footer__bottom {
     display: flex;
@@ -1096,7 +1105,7 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 630px) {
   .footer {
     padding-top: 253px;
     padding-left: 24;
@@ -1136,8 +1145,8 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 2px;
   }
   .footer__bottom {
-    justify-content: space-between;
     flex-direction: column;
+    align-items: center;
   }
   .footer__bottom .footer__list {
     max-width: 456px;
@@ -1155,8 +1164,11 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     justify-content: center;
   }
-  .footer__bottom .footer__icons-list .footer__icons-item + .footer__icons-item {
+  .footer__bottom .footer__icons-list .footer__icons-item {
     margin-left: 16px;
+  }
+  .footer__bottom .footer__icons-list .footer__icons-item:first-child {
+    margin-left: 0px;
   }
 }
 
