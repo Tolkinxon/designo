@@ -407,6 +407,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 64px;
   margin-bottom: 3px;
 }
+.header__img {
+  width: 202px;
+  height: 27px;
+}
 .header .background-shade {
   display: none;
   position: absolute;
@@ -465,10 +469,24 @@ h1, h2, h3, h4, h5, h6, p {
 .header .header__close-btn {
   display: none;
 }
-
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1170px) {
   .header__container {
-    max-width: 400px;
+    max-width: 1170px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .header__item + .header__item {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
     width: 100%;
     position: relative;
     padding-top: 35px;
@@ -525,6 +543,11 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .open-menu .header__burger-btn {
     display: none;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .header__img {
+    width: 150px;
   }
 }
 .main {
