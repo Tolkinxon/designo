@@ -806,7 +806,7 @@ h1, h2, h3, h4, h5, h6, p {
 .feature__list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 88px;
+  margin-bottom: 160px;
 }
 .feature__item {
   max-width: 350px;
@@ -890,7 +890,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .about-project__container {
   position: relative;
-  top: 72px;
+  margin-bottom: -72px;
+  z-index: 10;
   padding-top: 72px;
   padding-bottom: 46px;
   padding-left: 95px;
@@ -995,7 +996,9 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 40px;
   border-bottom: 0.5px solid #fff;
   margin-bottom: 31px;
-  justify-content: right;
+  justify-content: space-between;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .footer__top .footer__header-container .header__item {
   color: #fff;

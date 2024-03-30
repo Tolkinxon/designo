@@ -1,7 +1,8 @@
 .about-project {
     &__container {
         position: relative;
-        top: 72px;
+        margin-bottom: -72px;
+        z-index: 10;
         padding-top: 72px;
         padding-bottom: 46px;
         padding-left: 95px;
