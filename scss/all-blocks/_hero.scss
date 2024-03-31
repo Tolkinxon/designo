@@ -78,8 +78,10 @@
             align-items: center;
             justify-content: start;
             margin-bottom: 120px;
+            padding-left: 20px;
+            padding-right: 20px;
             
-            background-position: calc(50% + 140px), calc(50%) calc(50% + 330px) ;
+            background-position: calc(50% + 140px), calc(50%) 470px;
             
             > div {
                 max-width: 573px;
@@ -89,6 +91,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 400px;
                 
                 .hero__heading {
                     text-align: center;
@@ -103,9 +106,9 @@
         }
     } 
     
-    @media only screen and (max-width: 450px) {
+    @media only screen and (max-width: 500px) {
         .container {
-            max-width: 375px;
+            max-width: 500px;
             width: 100%;
             padding: 0px;
         }
@@ -131,5 +134,18 @@
                 }
             }
         }
+    }
+
+    @media only screen and (max-width: 290px) {
+        &__container {
+            background-image: url('./../images/Oval.svg'), none;
+            background-position: calc(50% + 222px);
+
+            > div {
+                margin-bottom: 0;
+            }
+            min-height: 400px;
+            height: 100%;
+        }  
     }
 }
