@@ -7,7 +7,9 @@
     &__left {
         background-image: url('./../images/designs1.png');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-position: center;
+        background-size: contain;
+        border: 2px solid red;
     }
     
     &__right, &__left {
@@ -21,6 +23,7 @@
         justify-content: center;
         position: relative;
         border-radius: 10px;
+        background-size: cover;
         
         .image-wrapper {
             width: 100%;
@@ -86,6 +89,8 @@
         align-items: center;
         margin-bottom: 24px;
         border-radius: 10px;
+        background-position: center;
+
     }
     
     &__right-top {
@@ -111,14 +116,16 @@
         &__container {
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             margin-bottom: 120px;
         }
         
         &__left {
             background-image: url('./../images/designs-tablet1.png');
-            background-size: contain;
+            background-size: cover;
             margin-bottom: 25px;
             height: 200px;
+            margin-right: 0px;
         }
         
         &__right, &__left {
@@ -147,7 +154,7 @@
         
         &__right-top {
             background-image: url('./../images/designs-tablet2.png');
-            background-size: contain;
+            background-size: cover;
             
             
             .image-wrapper {
@@ -157,7 +164,7 @@
         
         &__right-bottom {
             background-image: url('./../images/designs-tablet3.png');
-            background-size: contain;
+            background-size: cover;
         }  
     }
     
