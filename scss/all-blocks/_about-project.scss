@@ -1,4 +1,9 @@
 .about-project {
+    .container {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
     &__container {
         position: relative;
         margin-bottom: -72px;
@@ -19,7 +24,8 @@
     }
     
     .text-wrapper {
-        width: 460px;
+        width: 490px;
+        padding-right: 30px;
         text-align: left;        
     }  
     
@@ -44,6 +50,10 @@
     }
     
     @media only screen and (max-width: 768px){
+        .text-wrapper {
+            padding-right: 0px;
+        }  
+
         &__container {
             margin-bottom: -86px;
             padding-top: 57px;
@@ -78,7 +88,7 @@
         }
     }
     
-    @media only screen and (max-width: 375px){
+    @media only screen and (max-width: 630px){
         &__container {
             margin-bottom: -190px;
             padding: 64px 24px;

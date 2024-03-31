@@ -879,6 +879,8 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   justify-content: space-between;
   margin-bottom: 160px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .feature__item {
   max-width: 350px;
@@ -888,6 +890,9 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.feature__item + .feature__item {
+  margin-left: 30px;
 }
 .feature__item-image {
   width: 202px;
@@ -909,7 +914,17 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 400;
   line-height: 26px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1160px) {
+  .feature__item {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .feature__item {
+    max-width: 250px;
+  }
+}
+@media only screen and (max-width: 870px) {
   .feature__list {
     display: flex;
     flex-direction: column;
@@ -924,6 +939,9 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     text-align: left;
     margin-bottom: 32px;
+  }
+  .feature__item + .feature__item {
+    margin-left: 0px;
   }
   .feature__item:last-child {
     margin-bottom: 0px;
@@ -940,15 +958,20 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 625px) {
   .feature__list {
     margin-bottom: 120px;
   }
   .feature__item {
     max-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .feature__item + .feature__item {
+    margin-left: auto;
   }
   .feature__item:last-child {
     margin-bottom: 0px;
@@ -962,6 +985,10 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+.about-project .container {
+  padding-left: 22px;
+  padding-right: 22px;
+}
 .about-project__container {
   position: relative;
   margin-bottom: -72px;
@@ -981,7 +1008,8 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: 100% -135px, 100% 157px;
 }
 .about-project .text-wrapper {
-  width: 460px;
+  width: 490px;
+  padding-right: 30px;
   text-align: left;
 }
 .about-project__heading {
@@ -1003,6 +1031,9 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 22px;
 }
 @media only screen and (max-width: 768px) {
+  .about-project .text-wrapper {
+    padding-right: 0px;
+  }
   .about-project__container {
     margin-bottom: -86px;
     padding-top: 57px;
@@ -1033,7 +1064,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 32px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 630px) {
   .about-project__container {
     margin-bottom: -190px;
     padding: 64px 24px;
