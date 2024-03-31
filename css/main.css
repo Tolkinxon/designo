@@ -645,7 +645,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 20px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
   .hero .container {
     max-width: 375px;
     width: 100%;
@@ -680,7 +680,6 @@ h1, h2, h3, h4, h5, h6, p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 2px solid red;
 }
 .designs__right, .designs__left {
   max-width: 541px;
@@ -812,6 +811,11 @@ h1, h2, h3, h4, h5, h6, p {
     background-size: cover;
   }
 }
+@media only screen and (max-width: 445px) {
+  .designs__left h2, .designs__right h2 {
+    font-size: 28px;
+  }
+}
 @media only screen and (max-width: 375px) {
   .designs__left {
     background-image: url("./../images/designs-mobile1.png");
@@ -830,7 +834,6 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: rgba(231, 130, 107, 0.681);
   }
   .designs__right h2, .designs__left h2 {
-    font-size: 28px;
     line-height: 36px;
     letter-spacing: 1.3999999762px;
     margin-bottom: 12px;

@@ -9,7 +9,6 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        border: 2px solid red;
     }
     
     &__right, &__left {
@@ -167,6 +166,14 @@
             background-size: cover;
         }  
     }
+
+    @media only screen and (max-width: 445px) {
+        &__left, &__right {
+                h2 {
+                    font-size: 28px;
+                }
+        }        
+    }
     
     @media only screen and (max-width: 375px) {
         &__left {
@@ -190,7 +197,6 @@
 
                    
             h2 {
-                font-size: 28px;
                 line-height: 36px;
                 letter-spacing: 1.399999976158142px;
                 margin-bottom: 12px;
