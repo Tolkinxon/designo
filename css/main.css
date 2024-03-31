@@ -602,6 +602,22 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 40px;
   color: #fff;
 }
+@media only screen and (max-width: 990px) {
+  .hero__container {
+    background-position: calc(50% + 230px), calc(100% - 35px) 139px;
+  }
+  .hero__container > div {
+    padding-left: 40px;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .hero__container > div {
+    max-width: 415px;
+  }
+  .hero__container > div .hero__heading {
+    font-size: 40px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .hero__container {
     min-height: 843px;
@@ -674,6 +690,7 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   justify-content: center;
   position: relative;
+  border-radius: 10px;
 }
 .designs__right .image-wrapper, .designs__left .image-wrapper {
   width: 100%;
@@ -730,6 +747,7 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
+  border-radius: 10px;
 }
 .designs__right-top {
   background-image: url("./../images/designs2.png");
@@ -745,9 +763,10 @@ h1, h2, h3, h4, h5, h6, p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 990px) {
   .designs__container {
     flex-direction: column;
+    align-items: center;
     margin-bottom: 120px;
   }
   .designs__left {
